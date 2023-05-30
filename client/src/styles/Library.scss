@@ -1,0 +1,17 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  // font-family: cursive;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #4d678d;
+  border-radius: 7px;
+  border-color: #4d678d;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,40 @@
+{
+    "name": "house-of-books",
+    "version": "1.0.0",
+    "description": "CS 554 A Final Project",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bhatsushant/house-of-books.git"
+    },
+    "author": "Sushant Bhat, Anchal Bansal, Harshal Vaidya, Tanay Tadas",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bhatsushant/house-of-books/issues"
+    },
+    "homepage": "https://github.com/bhatsushant/house-of-books#readme",
+    "dependencies": {
+        "axios": "^0.24.0",
+        "bcrypt": "^5.0.1",
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.1",
+        "express": "^4.17.1",
+        "express-handlebars": "^5.3.4",
+        "express-session": "^1.17.2",
+        "gm": "^1.23.1",
+        "handlebars": "^4.7.7",
+        "imagemagick": "^0.1.3",
+        "mongodb": "^4.1.4",
+        "nodemon": "^2.0.15",
+        "qs": "^6.10.1",
+        "redis": "^4.1.0",
+        "validator": "^13.7.0",
+        "xss": "^1.0.10"
+    }
+}
